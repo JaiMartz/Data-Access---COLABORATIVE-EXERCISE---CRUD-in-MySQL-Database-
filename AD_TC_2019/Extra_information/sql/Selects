@@ -1,0 +1,14 @@
+SELECT a.nombre_alumno, a.dni, a.fecha_nac, t.codigo_asignatura, as FROM alumnos AS a LEFT JOIN tienen AS t ON a.dni=t.dni
+
+SELECT a.nombre_alumno, a.dni, a.fecha_nac, t.codigo_asignatura, as.codigo_asignatura FROM alumnos AS a, tienen AS t, asignaturas AS as WHERE a.dni=t.dni AND t.codigo_asignatura=as.codigo_asignatura;
+
+
+SELECT OrderID, C.CustomerID, CompanyName, OrderDate
+FROM Customers C JOIN Orders O ON C.CustomerID = O.CustomerID JOIN Employees E ON O.EmployeeID = E.EmployeeID
+WHERE C.Country = 'Spain' OR E.EmployeeID = 5
+
+
+SELECT A.nombre_alumno, A.dni, A.fecha_nac, T.codigo_asignatura, S.nombre_asignatura FROM alumnos A JOIN tienen T ON  A.dni = T.dni JOIN asignaturas S ON T.codigo_asignatura=S.codigo_asignatura;
+
+
+

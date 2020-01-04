@@ -1,0 +1,73 @@
+<!--STATEMENTS INSERT ALUMNOS-->
+
+	INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('76652856C','Jairo','Martinez Garrido','1991-07-19');
+  
+	INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('47804194M','David','Mitjans Muñoz','1992-04-18');
+  
+  
+  INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('75162623A','Yaiza','Rodriguez Heredero','1986-09-17');
+  
+  INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('67802271B','Daviz','Sanchez Sanchez','1989-03-12');
+
+  INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('75298315C','Laura','Mesonez Ruiz','2019-04-18');
+
+  INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('09214315K','Fernando','Granados Roas','1993-06-24');
+
+  INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('50398315L','Abdon','Delgado Garcia','1996-07-12');
+
+    INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('47298315D','Francisco','Jimenez Ruiz','1998-08-15');
+
+  INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('64838315C','Alejandra','Torres Hurtado','2000-02-7');
+  
+  
+  INSERT INTO alumnos(dni, nombre_alumno, apellidos, fecha_nac)
+VALUES('73398310C','Maria','Mendez Nuñez','2001-01-10');
+
+
+
+ 
+<!--STATEMENTS INSERT TIENEN-->
+
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('76652856C',1);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('74780419M',2);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('75162623A',3);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('67802271B',4);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('75298315C',5);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('09214315K',6);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('50398315L',7);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('47298315D',8);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('64838315C',9);
+INSERT INTO tienen (dni, codigo_asignatura)VALUES ('73398310C',10);
+
+
+<!--STATEMENTS ASIGNATURAS -->
+
+INSERT INTO Asignaturas VALUES (1, 'AD', 'Acceso a Datos', 1);
+INSERT INTO Asignaturas VALUES (2, 'PMDM', 'Programacion Dispositivos Moviles', 1);
+INSERT INTO Asignaturas VALUES (3, 'DW', 'Desarrollo Web', 2);
+INSERT INTO Asignaturas VALUES (4, 'SW', 'Servicios Web', 2);
+INSERT INTO Asignaturas VALUES (5, 'ADD', 'Analisis De Datos', 3);
+INSERT INTO Asignaturas VALUES (6, 'ADI', 'Almacenamiento De Informacion', 3); 
+INSERT INTO Asignaturas VALUES (7, 'MEI', 'Mantenimiento Equipos Informaticos', 4);
+INSERT INTO Asignaturas VALUES (8, 'SI', 'Sistemas Informaticos', 4);
+INSERT INTO Asignaturas VALUES (9, 'DA', 'Desarrollo En Android', 5);
+INSERT INTO Asignaturas VALUES (10, 'DU', 'Desarrollo en Unity', 5);
+
+<!--SENTENCIAS CURSO-->
+
+INSERT INTO Cursos VALUES (1, 'DAM', 'Desarrollo de aplicaciones multiplataforma');
+INSERT INTO Cursos VALUES (2, 'DAW', 'Desarrollo de aplicaciones Web');
+INSERT INTO Cursos VALUES (3, 'BD', 'Big Data');
+INSERT INTO Cursos VALUES (4, 'ASIR', 'Administracion de sistemas informaticos en red');
+INSERT INTO Cursos VALUES (5, 'DV', 'Desarrollo de videojuegos');
+
+
